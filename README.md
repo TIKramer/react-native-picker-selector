@@ -126,7 +126,7 @@ Here's an example usage of Picker.Item:
 
 Import Picker 
 ```js
-import { Picker } from 'react-native';
+import { Picker } from 'react-native-picker-selector';
 ```
 
 Create Picker Items by using Picker.Item and passing in the required props
