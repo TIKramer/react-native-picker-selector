@@ -10,7 +10,7 @@ export const PickerItem = ({
 }: PickerItemProps) => {
   return (
     <View style={containerStyle}>
-      <Text style={textStyle}>{label}</Text>;
+      <Text style={textStyle}>{label}</Text>
     </View>
   );
 };
