@@ -1,6 +1,7 @@
-import type { ViewStyle } from 'react-native';
+import type { ReactElement, ReactNode } from 'react';
+import type { StyleProp, TextStyle, ViewStyle } from 'react-native';
 
-interface PickerProps {
+export interface PickerProps {
   placeholder: string;
   currentValue?: Option | null;
   onValueChange: (item: Option) => void;
@@ -16,12 +17,12 @@ interface PickerProps {
   itemStyle?: StyleProp<ViewStyle>;
   itemBorderStyle: StyleProp<ViewStyle>;
 }
-interface Option {
+export interface Option {
   value: any;
   label: string;
 }
 
-interface PickerItemProps extends Option {
+export interface PickerItemProps extends Option {
   containerStyle?: StyleProp<ViewStyle>;
   textStyle?: StyleProp<TextStyle>;
 }

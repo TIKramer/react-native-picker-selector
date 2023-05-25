@@ -1,13 +1,9 @@
 import * as React from 'react';
 
 import { StyleSheet, Text, View } from 'react-native';
-import { Picker } from 'react-native-picker-selector';
-interface Option {
-  label: string;
-  value: string;
-}
+import { Picker, Option } from 'react-native-picker-selector';
 
-const options = [
+const options: Option[] = [
   { label: 'Option 1', value: 'option1' },
   { label: 'Option 2', value: 'option2' },
   { label: 'Option 3', value: 'option3' },
