@@ -1,6 +1,6 @@
 {
   "name": "react-native-picker-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a react native picker component made using only react native components",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
